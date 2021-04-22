@@ -1,7 +1,6 @@
 .hero {
   background-color: var(--main-color);
   text-align: center;
-  height: 600px;
   &__title {
     padding-bottom: 40px;
     padding-top: 200px;
@@ -15,6 +14,7 @@
 }
 .overlay {
   height: 600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
